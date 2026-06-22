@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <circle cx="50" cy="50" r="50" fill="#F5C518"/>
+  <!-- Left ear -->
+  <polygon points="26,52 22,18 40,44" fill="#F5C518"/>
+  <polygon points="26,50 24,24 38,44" fill="#1a1a1a"/>
+  <!-- Right ear -->
+  <polygon points="74,52 78,18 60,44" fill="#F5C518"/>
+  <polygon points="74,50 76,24 62,44" fill="#1a1a1a"/>
+  <!-- Face -->
+  <ellipse cx="50" cy="62" rx="30" ry="28" fill="#F5C518"/>
+  <!-- Eyes -->
+  <circle cx="38" cy="56" r="7" fill="#1a1a1a"/>
+  <circle cx="62" cy="56" r="7" fill="#1a1a1a"/>
+  <circle cx="36" cy="54" r="2.5" fill="white"/>
+  <circle cx="60" cy="54" r="2.5" fill="white"/>
+  <!-- Red cheeks -->
+  <ellipse cx="24" cy="68" rx="10" ry="8" fill="#E8503A"/>
+  <ellipse cx="76" cy="68" rx="10" ry="8" fill="#E8503A"/>
+  <!-- Nose -->
+  <ellipse cx="50" cy="65" rx="4" ry="2.5" fill="#C87820"/>
+  <!-- Mouth -->
+  <path d="M 42 71 Q 46 76 50 74 Q 54 76 58 71" fill="none" stroke="#C87820" stroke-width="2" stroke-linecap="round"/>
+</svg>

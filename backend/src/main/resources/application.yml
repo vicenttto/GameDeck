@@ -1,0 +1,36 @@
+spring:
+  application:
+    name: gamedeck-backend
+  config:
+    import: optional:file:../.env[.properties]
+  datasource:
+    url: jdbc:mysql://${DB_HOST:localhost}:${DB_PORT:3306}/${DB_NAME:gamedeck}?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC&createDatabaseIfNotExist=true
+    username: ${DB_USER:root}
+    password: ${DB_PASSWORD:}
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: false
+    properties:
+      hibernate:
+        format_sql: true
+  flyway:
+    enabled: true
+    locations: classpath:db/migration
+    baseline-on-migrate: true
+
+server:
+  port: ${PORT:8081}
+
+app:
+  jwt:
+    secret: ${JWT_SECRET:gamedeck-dev-default-secret-key-change-in-prod!}
+    expiration-minutes: ${JWT_EXPIRATION_MINUTES:60}
+  rawg:
+    base-url: ${RAWG_BASE_URL:https://api.rawg.io/api}
+    api-key: ${RAWG_API_KEY:3c5149fa38f94a60ad9fd79468a79acb}
+
+logging:
+  level:
+    root: info

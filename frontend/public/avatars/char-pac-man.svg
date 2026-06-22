@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <circle cx="50" cy="50" r="50" fill="#1a1a1a"/>
+  <!-- Pac-Man (facing right, ~45° mouth) -->
+  <path d="M 50 50 L 88 34 A 42 42 0 1 0 88 66 Z" fill="#FFD700"/>
+  <!-- Eye -->
+  <circle cx="58" cy="24" r="5" fill="#1a1a1a"/>
+  <!-- Ghost dots -->
+  <circle cx="18" cy="74" r="4" fill="#9090FF" opacity="0.7"/>
+  <circle cx="32" cy="82" r="4" fill="#FF9090" opacity="0.7"/>
+  <circle cx="12" cy="58" r="3" fill="#90FF90" opacity="0.5"/>
+</svg>

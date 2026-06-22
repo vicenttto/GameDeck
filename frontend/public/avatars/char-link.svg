@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <circle cx="50" cy="50" r="50" fill="#1B5E1B"/>
+  <!-- Elf ears (behind face) -->
+  <polygon points="28,54 20,38 36,48" fill="#F5CBA7"/>
+  <polygon points="72,54 80,38 64,48" fill="#F5CBA7"/>
+  <!-- Face -->
+  <circle cx="50" cy="62" r="22" fill="#F5CBA7"/>
+  <!-- Blonde hair at sides -->
+  <path d="M 30 56 Q 28 70 31 76" fill="none" stroke="#E8C050" stroke-width="5" stroke-linecap="round"/>
+  <path d="M 70 56 Q 72 70 69 76" fill="none" stroke="#E8C050" stroke-width="5" stroke-linecap="round"/>
+  <!-- Eyes -->
+  <ellipse cx="42" cy="60" rx="4" ry="5" fill="white"/>
+  <ellipse cx="58" cy="60" rx="4" ry="5" fill="white"/>
+  <circle cx="43" cy="61" r="2.5" fill="#3060C0"/>
+  <circle cx="59" cy="61" r="2.5" fill="#3060C0"/>
+  <!-- Nose -->
+  <circle cx="50" cy="67" r="2.5" fill="#E0A880"/>
+  <!-- Smile -->
+  <path d="M 44 73 Q 50 77 56 73" fill="none" stroke="#C08060" stroke-width="2"/>
+  <!-- Green pointed hat -->
+  <path d="M 50 10 L 30 52 L 70 52 Z" fill="#2D8A2D"/>
+  <!-- Hat base band -->
+  <rect x="28" y="48" width="44" height="8" rx="3" fill="#1B6A1B"/>
+</svg>

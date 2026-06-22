@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <circle cx="50" cy="50" r="50" fill="#FF80B4"/>
+  <!-- Feet -->
+  <ellipse cx="34" cy="84" rx="14" ry="9" fill="#E85898"/>
+  <ellipse cx="66" cy="84" rx="14" ry="9" fill="#E85898"/>
+  <!-- Body circle -->
+  <circle cx="50" cy="48" r="38" fill="#FF80B4"/>
+  <!-- Eyes (large oval, light blue) -->
+  <ellipse cx="37" cy="44" rx="10" ry="13" fill="#6BBCD8"/>
+  <ellipse cx="63" cy="44" rx="10" ry="13" fill="#6BBCD8"/>
+  <!-- Pupils -->
+  <circle cx="37" cy="47" r="7" fill="#1A3A6E"/>
+  <circle cx="63" cy="47" r="7" fill="#1A3A6E"/>
+  <!-- Eye glints -->
+  <circle cx="35" cy="43" r="2.5" fill="white"/>
+  <circle cx="61" cy="43" r="2.5" fill="white"/>
+  <!-- Cheek blushes -->
+  <ellipse cx="22" cy="60" rx="8" ry="5" fill="#E85898" opacity="0.7"/>
+  <ellipse cx="78" cy="60" rx="8" ry="5" fill="#E85898" opacity="0.7"/>
+  <!-- Mouth -->
+  <path d="M 43 62 Q 50 67 57 62" fill="none" stroke="#E85898" stroke-width="2.5" stroke-linecap="round"/>
+</svg>

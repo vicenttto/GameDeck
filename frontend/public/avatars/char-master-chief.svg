@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <circle cx="50" cy="50" r="50" fill="#1E3A1E"/>
+  <!-- Helmet dome -->
+  <path d="M 18 56 Q 18 18 50 14 Q 82 18 82 56 L 82 72 Q 80 86 50 88 Q 20 86 18 72 Z" fill="#4A6741"/>
+  <!-- T-visor horizontal bar -->
+  <rect x="22" y="44" width="56" height="16" rx="4" fill="#C8921A"/>
+  <!-- T-visor vertical bar -->
+  <rect x="40" y="57" width="20" height="22" rx="2" fill="#C8921A"/>
+  <!-- Visor inner dark reflection -->
+  <rect x="26" y="47" width="48" height="10" rx="3" fill="#7A5810"/>
+  <!-- Helmet top highlight -->
+  <path d="M 30 28 Q 50 20 70 28" fill="none" stroke="#6A8760" stroke-width="3" stroke-linecap="round"/>
+</svg>

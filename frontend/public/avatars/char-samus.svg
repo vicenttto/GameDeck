@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <circle cx="50" cy="50" r="50" fill="#EA580C"/>
+  <!-- Outer helmet dome -->
+  <path d="M 16 58 Q 14 18 50 14 Q 86 18 84 58 L 82 72 Q 78 90 50 90 Q 22 90 18 72 Z" fill="#D97706"/>
+  <!-- Inner surface -->
+  <path d="M 22 58 Q 20 24 50 20 Q 80 24 78 58 L 76 70 Q 72 84 50 84 Q 28 84 24 70 Z" fill="#F59E0B"/>
+  <!-- Red visor band -->
+  <rect x="18" y="48" width="64" height="14" rx="4" fill="#DC2626"/>
+  <!-- Visor dark interior -->
+  <rect x="22" y="51" width="56" height="8" rx="3" fill="#7F1D1D"/>
+  <!-- Visor glint -->
+  <path d="M 26 53 L 46 53" stroke="rgba(255,255,255,0.4)" stroke-width="2" stroke-linecap="round"/>
+  <!-- Helmet top ridge -->
+  <path d="M 34 24 Q 50 18 66 24" fill="none" stroke="#FBBF24" stroke-width="3" stroke-linecap="round"/>
+</svg>

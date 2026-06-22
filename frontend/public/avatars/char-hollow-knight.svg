@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <circle cx="50" cy="50" r="50" fill="#0D0D1A"/>
+  <!-- Left horn (curved) -->
+  <path d="M 38 44 Q 30 26 24 14 Q 22 10 26 13 Q 32 22 38 34 Z" fill="white"/>
+  <!-- Right horn (curved) -->
+  <path d="M 62 44 Q 70 26 76 14 Q 78 10 74 13 Q 68 22 62 34 Z" fill="white"/>
+  <!-- Mask body -->
+  <path d="M 25 56 Q 22 38 50 32 Q 78 38 75 56 Q 75 80 50 84 Q 25 80 25 56Z" fill="white"/>
+  <!-- Left eye (dark void) -->
+  <ellipse cx="39" cy="53" rx="9" ry="12" fill="#0D0D1A"/>
+  <!-- Right eye (dark void) -->
+  <ellipse cx="61" cy="53" rx="9" ry="12" fill="#0D0D1A"/>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <circle cx="50" cy="50" r="50" fill="#4CAF50"/>
+  <!-- Face (square, darker green) -->
+  <rect x="15" y="15" width="70" height="70" rx="3" fill="#388E3C"/>
+  <!-- Left eye -->
+  <rect x="24" y="30" width="20" height="20" fill="#1a1a1a"/>
+  <!-- Right eye -->
+  <rect x="56" y="30" width="20" height="20" fill="#1a1a1a"/>
+  <!-- Mouth top center -->
+  <rect x="34" y="52" width="32" height="10" fill="#1a1a1a"/>
+  <!-- Mouth lower wide bar -->
+  <rect x="24" y="62" width="52" height="12" fill="#1a1a1a"/>
+  <!-- Teeth gaps (green) -->
+  <rect x="34" y="62" width="10" height="12" fill="#388E3C"/>
+  <rect x="56" y="62" width="10" height="12" fill="#388E3C"/>
+</svg>
